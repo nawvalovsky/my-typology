@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:wght@400;700&family=Space+Grotesk:wght@400;700;900&family=Syne:wght@400;700;800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 @import "tailwindcss";
 
 :root {
@@ -22,5 +24,23 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Custom Fonts & Patterns dari Desain */
+.font-bebas { font-family: 'Bebas Neue', sans-serif; }
+.font-chakra { font-family: 'Chakra Petch', sans-serif; }
+.font-space { font-family: 'Space Grotesk', sans-serif; }
+.font-syne { font-family: 'Syne', sans-serif; }
+
+.bg-stripes-yellow {
+  background-image: repeating-linear-gradient(45deg, #fef08a 0, #fef08a 10px, transparent 10px, transparent 20px);
+}
+
+.bg-stripes-pink {
+  background-image: repeating-linear-gradient(-45deg, #ec4899 0, #ec4899 10px, transparent 10px, transparent 20px);
+}
+
+.bg-polka-black {
+  background-image: radial-gradient(#000 2px, transparent 2px);
+  background-size: 16px 16px;
+} 
